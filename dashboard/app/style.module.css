@@ -1,0 +1,282 @@
+.grid {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 0.17fr 0.83fr;
+    border-radius: 50px;
+}
+
+.leftPart {
+    display: grid;
+    grid-template-rows: 0.17fr 0.6fr 0.3fr;
+    border-right: 0.4px solid rgb(202, 201, 201);
+}
+
+.rightPart {
+    display: grid;
+    grid-template-rows: 0.2fr 1fr;
+    overflow-y: auto;
+    padding: 2% !important;
+}
+
+.leftHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0F4264;
+    font-weight: bolder;
+}
+
+.leftMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10;
+    padding: 0 15%;
+}
+
+.leftButton {
+    width: 100% !important;
+    color: rgb(172, 170, 170) !important;
+    display: grid !important;
+    grid-template-columns: 0.1fr 0.7fr;
+    padding: 5% 15% !important;
+}
+
+.leftBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+}
+
+.premiumButton {
+    width: 66% !important;
+    background-color: #FFC145 !important;
+    padding: 3% !important;
+    color: black;
+    gap: 10;
+    border-radius: 20px !important;
+}
+
+.rightHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1% !important;
+}
+
+.yellowIcon {
+    padding: 0 !important;
+    background-color: #FFC145 !important;
+}
+
+.flexRow {
+    display: flex !important;
+    flex-direction: row;
+    gap: 10;
+}
+
+.flexCenter {
+    align-items: center;
+    justify-content: center;
+}
+
+.headerText {
+    font-size: 3rem !important;
+}
+
+.greyText {
+    color: rgb(172, 170, 170) !important;
+}
+
+.gridTwo {
+    display: grid;
+    /* grid-template-rows: repeat(2, 1fr); */
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2%;
+    gap: 20;
+}
+
+.gridTwoCol {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.card {
+    padding: 5% 3% !important;
+    border-radius: 20px !important;
+}
+
+.cardHeaderText {
+    font-size: 1.5rem !important;
+}
+
+.noPaddingMargin {
+    margin: 0% !important;
+    color: #0F4264 !important;
+}
+
+.rightBorder {
+    border-right: 0.1px solid grey !important;
+}
+
+.flexCol {
+    display: flex !important;
+    flex-direction: column;
+    gap: 10;
+}
+
+.greenText {
+    color: #439A86 !important;
+}
+
+.blueText {
+    color: #197BBD !important;
+}
+
+.bigText1 {
+    font-size: 2rem !important;
+}
+
+.bigText2 {
+    font-size: 1.5rem !important;
+}
+
+.bigText3 {
+    font-size: 1rem !important;
+}
+
+.redText {
+    color: #BB4430 !important;
+}
+
+.textAlignRight {
+    text-align: right !important;
+}
+
+.inRow {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.fullWidth {
+    width: 100% !important;
+}
+
+.loader {
+    margin: 0 2% !important;
+    padding: 2% 0% !important;
+    border-radius: 50px !important;
+    background-color: #eff0f1 !important;
+}
+
+.spaceBetween {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexEnd {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.logo {
+    width: fit-content !important;
+}
+
+.goalCard {
+    width: 100%;
+    gap: 50;
+    padding: 3% 10% 3% 3% !important;
+}
+
+.goalPrice {
+    color: #696969 !important;
+    font-size: 1.5rem !important;
+}
+
+.moveUp {
+    transform: translate(0, -30%);
+    display: flex;
+    flex-direction: column;
+    gap: 10;
+}
+
+.progressBox {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20;
+    justify-content: flex-start;
+    margin: 0 3% !important;
+    align-items: center;
+}
+
+.width90 {
+    width: 90% !important;
+}
+
+.groceryIcon {
+    width: 150% !important;
+    padding: 12% !important;
+    color: #F8964C !important;
+    background-color: #FFEADA !important;
+}
+
+.electronicsIcon {
+    width: 150% !important;
+    padding: 12% !important;
+    color: #22A447 !important;
+    background-color: #DDF9E4 !important;
+}
+
+.travelsIcon {
+    width: 150% !important;
+    padding: 12% !important;
+    color: #70A6E8 !important;
+    background-color: #E4F0FF !important;
+}
+
+.gridUnequal {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    gap: 20;
+}
+
+.flexEvenly {
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.transferInput {
+    /* padding: 5% 5% 5% 0 !important; */
+    color: #bebdbd !important;
+    font-size: 2rem !important;
+}
+
+.progressPercentageText {
+    font-size: 1.5rem;
+    color: #696969;
+}
+
+.latoFont {
+    font-family: var(--font-lato) !important;
+}
+
+.quickSandFont {
+    font-family: var(--font-quickSand) !important;
+}
+
+.activeTab {
+    background-color: #cee2fc !important;
+    color: #197BBD !important;
+}
+
+.marginY{
+    margin: 0 0 5% 0;
+}
