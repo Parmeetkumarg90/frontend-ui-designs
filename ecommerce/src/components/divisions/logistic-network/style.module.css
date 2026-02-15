@@ -1,0 +1,132 @@
+.logisticBox {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column;
+    padding: 0 10% !important;
+    position: relative;
+}
+
+.mcfBox {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between !important;
+}
+
+.movingShadow {
+    width: 60%;
+    height: 20%;
+    position: absolute;
+    background: #1a68e3;
+    border-radius: 50px;
+    z-index: -1;
+    left: 50%;
+    top: 55%;
+    transform: translate(-60%, -10%) rotate(20deg);
+    box-shadow: 0px 0px 1000px 200px #156df4;
+    animation: moveUpDown 8s infinite;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translate(-60%, -0%) rotate(20deg);
+    }
+
+    50% {
+        transform: translate(-60%, -50%) rotate(20deg);
+    }
+
+    100% {
+        transform: translate(-60%, -0%) rotate(20deg);
+    }
+}
+
+.innerContainer {
+    width: 75% !important;
+}
+
+.blurryText {
+    font-size: 1.1rem !important;
+    opacity: 0.7;
+}
+
+.bigText {
+    font-size: 2rem !important;
+    font-weight: bolder !important;
+}
+
+.descriptionText {
+    font-size: 1.3rem !important;
+    margin-left: 20% !important;
+}
+
+.serviceBox {
+    margin: 5% 0 !important;
+    display: grid !important;
+    grid-template-rows: auto auto;
+    gap: 30;
+}
+
+.serviceRow1 {
+    display: grid !important;
+    grid-template-columns: 1.8fr 1fr;
+    gap: 40;
+}
+
+.serviceRow2 {
+    display: grid !important;
+    grid-template-columns: 1fr 1.8fr;
+    gap: 40;
+}
+
+.bigServiceContainerDesign {
+    display: flex !important;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 4% 40% 4% 4%;
+    background-color: rgb(23, 23, 23) !important;
+    position: relative !important;
+}
+
+.smallServiceContainerDesign {
+    display: flex !important;
+    flex-direction: column;
+    padding: 4%;
+    border-radius: 10px;
+    background-color: rgb(23, 23, 23) !important;
+    position: relative !important;
+}
+
+.bigServiceContainerDesign::before,
+.smallServiceContainerDesign::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.relative {
+    position: relative !important;
+}
+
+.rightSideImageBox {
+    width: 100% !important;
+    height: 100% !important;
+    position: relative;
+}
+
+.rightSideImage {
+    width: fit-content !important;
+    transform: scale(2.3) !important;
+    object-fit: cover !important;
+    left: 125.7% !important;
+    top: -45% !important;
+}
+
+.bottomSideImage {
+    position: relative !important;
+    top: 9.5% !important;
+}
