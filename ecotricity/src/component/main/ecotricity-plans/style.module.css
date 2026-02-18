@@ -1,0 +1,67 @@
+.grid2UneqCol {
+    display: grid !important;
+    grid-template-columns: 0.20fr 0.5fr;
+    margin: 0 20%;
+}
+
+.flexCenter {
+    justify-content: center;
+    align-items: center;
+}
+
+.gap10 {
+    gap: 10 !important;
+}
+
+.gap20 {
+    gap: 20 !important;
+}
+
+.flexCol {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.flexRow {
+    display: flex !important;
+    flex-direction: row;
+}
+
+.flexCenter {
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.flexBetween {
+    justify-content: space-between !important;
+}
+
+.flexEvenly {
+    justify-content: space-evenly !important;
+}
+
+.boxText0 {
+    color: #636a7e;
+    font-size: 0.91em !important;
+    font-weight: 100 !important;
+}
+
+.boxText1 {
+    color: #636a7e;
+    font-size: 0.91em !important;
+    font-weight: 900 !important;
+}
+
+.boldText2 {
+    font-weight: 900 !important;
+    font-size: 1.5em !important;
+}
+
+.boxText4 {
+    font-weight: 900 !important;
+    font-size: 2.2em !important;
+}
+
+.marginY5{
+    margin: 5% 0;
+}

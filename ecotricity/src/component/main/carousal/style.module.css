@@ -1,0 +1,125 @@
+.flexCol {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.flexRow {
+    display: flex !important;
+    flex-direction: row;
+}
+
+.flexCenter {
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.flexBetween {
+    justify-content: space-between !important;
+}
+
+.flexEvenly {
+    justify-content: space-evenly !important;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.flexEnd {
+    justify-content: flex-end !important;
+    justify-items: flex-end;
+}
+
+.gap10 {
+    gap: 10 !important;
+}
+
+.gap20 {
+    gap: 20 !important;
+}
+
+.button {
+    font-size: 1em !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    color: #000 !important;
+    border: 0.5px solid #58c6c8 !important;
+    border-radius: 2px !important;
+    padding: 2% 5% !important;
+    width: 50%;
+}
+
+.noTextDecoration {
+    text-decoration: none !important;
+}
+
+.noTextTransform {
+    text-transform: none !important;
+}
+
+.skyBack {
+    background-color: #05a5a8 !important;
+    color: #fff !important;
+}
+
+.skyColor {
+    color: #58c6c8 !important;
+}
+
+.borderColorGreen {
+    border-color: #00b358 !important;
+}
+
+.relative {
+    position: relative !important;
+}
+
+.absolute {
+    position: absolute !important;
+}
+
+.boxText0 {
+    color: #636a7e;
+    font-size: 0.91em !important;
+    font-weight: 100 !important;
+}
+
+.boxText1 {
+    color: #636a7e;
+    font-size: 0.91em !important;
+    font-weight: 900 !important;
+}
+
+.boxText4 {
+    font-weight: 900 !important;
+    font-size: 2.2em !important;
+}
+
+.marginTop5 {
+    margin-top: 5% !important;
+}
+
+.box {
+    max-height: 600px !important;
+}
+
+.innerBox {
+    margin: 3% 0 3% 30%;
+    padding: 10% 3% 15% 20%;
+    border-radius: 50px;
+    width: 60% !important;
+    background-image: linear-gradient(to bottom right, #fdffe8 0%, #d9fff6 100%) !important;
+}
+
+.bgImg {
+    width: 30% !important;
+    height: 70% !important;
+    left: 15% !important;
+    top: 15% !important;
+    border-radius: 10px;
+}
+
+.arrowIcon {
+    color: #58c6c8 !important;
+    font-size: 2em !important;
+}

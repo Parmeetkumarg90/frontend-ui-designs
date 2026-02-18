@@ -1,0 +1,167 @@
+.grid2UneqCol {
+    display: grid !important;
+    grid-template-columns: 0.3fr 1fr;
+}
+
+.grid2UneqRow {
+    display: grid !important;
+    grid-template-rows: 0.3fr 1fr;
+}
+
+.flexCol {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.flexRow {
+    display: flex !important;
+    flex-direction: row;
+}
+
+.flexCenter {
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.flexBetween {
+    justify-content: space-between !important;
+}
+
+.flexEvenly {
+    justify-content: space-evenly !important;
+}
+
+.fullWidth {
+    width: 100% !important;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.flexEnd {
+    justify-content: flex-end !important;
+    justify-items: flex-end;
+}
+
+.margin2_12 {
+    margin: 1% 14% !important;
+}
+
+.gap10 {
+    gap: 10 !important;
+}
+
+.gap20 {
+    gap: 20 !important;
+}
+
+.textPadding {
+    padding: 2% !important;
+    min-width: fit-content;
+}
+
+.searchButton {
+    border: 1px solid #58c6c8 !important;
+    padding: 2% !important;
+    border-radius: 10px !important;
+}
+
+.searchButton:hover {
+    background-color: #58c6c8 !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.linkText {
+    font-size: 1rem !important;
+    font-weight: 0 !important;
+    opacity: 0.8;
+    cursor: pointer !important;
+    border-bottom: 2px solid transparent;
+}
+
+.linkText:hover {
+    border-bottom: 2px solid #05a5a8;
+}
+
+.button {
+    font-size: 0.71em !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    color: #000 !important;
+    border: 0.5px solid #58c6c8 !important;
+    border-radius: 2px !important;
+    padding: 2% 5% !important;
+}
+
+.logo {
+    width: 70%;
+}
+
+.paddingTop2 {
+    padding: 8% 0 0 0 !important;
+}
+
+.paddingRight12 {
+    margin-right: 12% !important;
+}
+
+.marginTop2 {
+    padding-top: 3%;
+}
+
+.noTextDecoration {
+    text-decoration: none !important;
+}
+
+.noTextTransform {
+    text-transform: none !important;
+}
+
+.skyBack {
+    background-color: #05a5a8 !important;
+    color: #fff !important;
+}
+
+.marginRight2 {
+    margin: 0 8% !important;
+}
+
+.borderBottom {
+    border-bottom: 2px solid black;
+}
+
+.skyColor {
+    color: #58c6c8 !important;
+}
+
+.borderColorGreen,
+.borderColorLightGreen,
+.borderColorSky,
+.borderColorYellow {
+    cursor: pointer;
+}
+
+.borderColorGreen:hover,
+.borderColorLightGreen:hover,
+.borderColorSky:hover,
+.borderColorYellow:hover {
+    color: #58c6c8;
+}
+
+.borderColorGreen {
+    border-color: #00b358 !important;
+}
+
+.borderColorLightGreen {
+    border-color: #b5d334 !important;
+}
+
+.borderColorSky {
+    border-color: #81d3eb !important;
+}
+
+.borderColorYellow {
+    border-color: #ffe115 !important;
+}

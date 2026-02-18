@@ -1,0 +1,178 @@
+.grid2UneqCol {
+    display: grid !important;
+    grid-template-columns: 0.3fr 1fr;
+}
+
+.grid2UneqRow {
+    display: grid !important;
+    grid-template-rows: 0.3fr 1fr;
+}
+
+.flexCol {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.flexRow {
+    display: flex !important;
+    flex-direction: row;
+}
+
+.flexCenter {
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.flexBetween {
+    justify-content: space-between !important;
+}
+
+.flexEvenly {
+    justify-content: space-evenly !important;
+}
+
+.fullWidth {
+    width: 100% !important;
+    height: fit-content !important;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.flexEnd {
+    justify-content: flex-end !important;
+    justify-items: flex-end;
+}
+
+.gap10 {
+    gap: 10 !important;
+}
+
+.gap20 {
+    gap: 20 !important;
+}
+
+
+.linkText {
+    font-size: 1rem !important;
+    font-weight: 0 !important;
+    opacity: 0.8;
+    cursor: pointer !important;
+}
+
+.button {
+    font-size: 0.71em !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    color: #000 !important;
+    border: 0.5px solid #58c6c8 !important;
+    border-radius: 2px !important;
+    padding: 2% 5% !important;
+}
+
+.logo {
+    width: 70%;
+}
+
+.paddingTop8 {
+    padding: 8% 0 0 0 !important;
+}
+
+.paddingRight12 {
+    margin-right: 12% !important;
+}
+
+.paddingTop5 {
+    padding-top: 5% !important;
+}
+
+.noTextDecoration {
+    text-decoration: none !important;
+}
+
+.noTextTransform {
+    text-transform: none !important;
+}
+
+.skyBack {
+    background-color: #05a5a8 !important;
+    color: #fff !important;
+}
+
+.skyColor {
+    color: #58c6c8 !important;
+}
+
+.borderColorGreen {
+    border-color: #00b358 !important;
+}
+
+.relative {
+    position: relative !important;
+}
+
+.absolute {
+    position: absolute !important;
+}
+
+.boxText1 {
+    color: #636a7e;
+    font-size: 0.91em !important;
+    font-weight: 900 !important;
+}
+
+.boxText2 {
+    font-weight: 900 !important;
+    font-size: 4em !important;
+}
+
+.boxText3 {
+    font-weight: 900 !important;
+    font-size: 1.2em !important;
+}
+
+.boxText4 {
+    font-weight: 900 !important;
+    font-size: 2.2em !important;
+}
+
+.borderRadius {
+    border-radius: 10px !important;
+}
+
+.marginTop5 {
+    margin-top: 5% !important;
+}
+
+.marginTop2{
+    margin-top: 2% !important;
+}
+
+.bgImg{
+    background-image: url("/tree.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #00b358;
+}
+
+.benefitBox {
+    width: 120% !important;
+    padding: 3% 0 2% 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    background-image: linear-gradient(to bottom, #dffff5 0%, #ffffff 100%) !important;
+    filter: blur(0.4);
+}
+
+.box {
+    margin: 5% 20%;
+    padding: 2%;
+    border-radius: 10px;
+    max-width: 30% !important;
+    max-height: 800px !important;
+    background-image: linear-gradient(to bottom right, #fdffe8 0%, #d9fff6 100%) !important;
+    filter: blur(0.4);
+}

@@ -1,0 +1,75 @@
+
+
+.flexCenter {
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.gap10 {
+    gap: 10 !important;
+}
+
+.gap20 {
+    gap: 20 !important;
+}
+
+.skyColor {
+    color: #05a5a8 !important;
+}
+
+.relative {
+    position: relative !important;
+}
+
+.boxText0 {
+    color: #636a7e;
+    font-size: 0.91em !important;
+    font-weight: 100 !important;
+}
+
+.boxText1 {
+    color: #636a7e;
+    font-size: 0.91em !important;
+    font-weight: 900 !important;
+}
+
+.boldText2 {
+    font-weight: 900 !important;
+    font-size: 1.5em !important;
+}
+
+.boxText4 {
+    font-weight: 900 !important;
+    font-size: 2.2em !important;
+}
+
+.marginY5 {
+    margin: 5% !important;
+}
+
+.padding5 {
+    padding: 5% !important;
+}
+
+.gridCol2 {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.gridCol3 {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.imgBox {
+    width: 45%;
+    height: 400px;
+    left: 50%;
+    border: 2px dotted #000;
+    border-radius: 100%;
+}
+
+.infoBox {
+    width: 60%;
+    justify-content: center;
+}

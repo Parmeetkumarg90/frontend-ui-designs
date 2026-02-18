@@ -1,0 +1,30 @@
+.flexCol {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.flexRow {
+    display: flex !important;
+    flex-direction: row;
+}
+
+.flexCenter {
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.flexBetween {
+    justify-content: space-between !important;
+}
+
+.flexEvenly {
+    justify-content: space-evenly !important;
+}
+
+.fullWidth{
+    width: 100% !important;
+}
+.nav{
+    position: sticky !important;
+    top: 20px;
+}
