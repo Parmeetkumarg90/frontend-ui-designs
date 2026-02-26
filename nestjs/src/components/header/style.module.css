@@ -1,0 +1,197 @@
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #1b1b1d;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.container1,
+.container2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.container1 {
+    width: 40%;
+}
+
+.container2 {
+    width: 60%;
+    gap: 10px;
+}
+
+.flexRowEvenly {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flexEnd {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.drawerButton,
+.logo {
+    height: 100%;
+    transition: 0.3s ease-in-out width;
+    position: relative;
+}
+
+.drawerButton:hover {
+    background-color: #212121;
+}
+
+.drawerOpenWidth {
+    width: 33.5%;
+}
+
+.drawerCloseWidth {
+    width: 12%;
+}
+
+.logo {
+    width: 28%;
+}
+
+.drawerImage {
+    filter: invert(100%);
+}
+
+.image,
+.drawerImage {
+    width: 43% !important;
+    height: 43% !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.image {
+    width: 58% !important;
+    height: 58% !important;
+}
+
+.searchField {
+    width: 19%;
+    height: 45%;
+    transition: 0.1s height width ease-in-out;
+}
+
+.searchFieldText {
+    border-bottom: 2px solid #414141;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.searchField:hover,
+.searchField:focus-within {
+    width: 22%;
+}
+
+.searchFieldText::before,
+.searchFieldText::after {
+    border: 0px;
+}
+
+.searchField:hover>.searchFieldText,
+.searchField:focus-within>.searchFieldText {
+    border-bottom: 2px solid #e83663;
+}
+
+.searchIcon {
+    width: 70%;
+    font-weight: bold;
+    color: #c2bfbf;
+}
+
+.linkBox {
+    flex: 2 1 40%;
+    max-width: 45%;
+}
+
+.redTextBox,
+.redTextButton,
+.linkText {
+    font-size: 0.75rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.linkText:hover {
+    color: #e83663;
+}
+
+.redTextBox,
+.redTextButton {
+    height: 100%;
+    background: #ea285f;
+    margin: 0 5%;
+    padding: 2% 4%;
+    width: max-content;
+}
+
+.redTextButton {
+    font-weight: bold;
+    padding: 3% 8%;
+}
+
+.redTextButton:hover {
+    background: #262626;
+    color: #f23c57;
+}
+
+.iconBox {
+    flex: 1 1 10%;
+    max-width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 0 3%;
+}
+
+.iconButton {
+    padding: 0;
+}
+
+.iconButton:nth-child(n) {
+    transform: scale(0.8);
+    color: #fff;
+}
+
+.iconButton:nth-child(n):hover {
+    color: #f23c57;
+}
+
+.modeButton:nth-child(n) {
+    transform: scale(0.8);
+    color: #f23c57;
+}
+
+.modeButton:nth-child(n):hover {
+    color: #fff;
+}
+
+.separator {
+    height: 20px;
+    padding: 1px;
+    background-color: #444444;
+}
+
+.redTextBox,
+.redTextButton,
+.linkBox {
+    font-weight: 600;
+}

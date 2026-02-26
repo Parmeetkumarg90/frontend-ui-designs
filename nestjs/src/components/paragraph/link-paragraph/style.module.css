@@ -1,0 +1,15 @@
+.textBox {
+    width: 100%;
+    text-wrap: wrap;
+    white-space: pre-wrap;
+    color: #d8d6d6;
+    font-size: 0.92rem;
+}
+
+.anchorText {
+    color: #ea2855;
+}
+
+.anchorText:hover{
+    color: rgb(3, 116, 168);
+}

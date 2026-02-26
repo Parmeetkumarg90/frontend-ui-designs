@@ -1,0 +1,26 @@
+.flexRow {
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+
+.body {
+    width: 100%;
+}
+
+.rightPanel {
+    width: 20%;
+    position: sticky;
+    top: 0;
+}
+
+.darkMode {
+    color: #fdfdfd;
+    background-color: #1f1f22;
+}
+
+.lightMode {
+    color: #1f1f22;
+    background-color: #fdfdfd;
+}
